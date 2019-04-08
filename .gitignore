@@ -117,3 +117,4 @@ static/css
 venv
 blog/__pycache__/
 transporta_blog/__pycache__/
+*.pyc

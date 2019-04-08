@@ -1,4 +1,4 @@
-#Trabalho realizado para o projeto integrador do curso de Engenharia da computação.
+# Trabalho realizado para o projeto integrador do curso de Engenharia da computação.
 
 
 ### Clone o projeto na pasta desejada
@@ -9,7 +9,7 @@ cd transporta_blog
 
 ### Para testar o app siga o tutorial
 
-* ter o [python3][1] instalado
+* Ter o [python3][1] instalado
 
 * **[VirtualEnv][2]**
  
@@ -29,13 +29,13 @@ Para criar um ambiente isolado com  **Python 3**, então digite:
 
 	$ virtualenv -p /usr/bin/python3 venv
 
-onde ``venv`` é o nome do ambiente.
+Onde ``venv`` é o nome do ambiente.
 
 Entre na pasta
 
 	$ cd venv
 
-e ative o ambiente $ 
+Ative o ambiente
 
 	$ source bin/activate
 ### Instalando [Django][0]
@@ -44,9 +44,9 @@ e ative o ambiente $
 
 ### Rodar o app 
 
-criar tabelas no banco de dados.
+Criar tabelas no banco de dados.
 
-fazer migrações dos dados.
+Fazer migrações dos dados.
 
     $  python manage.py makemigrations
     $  python manage.py makemigrations blog
@@ -57,10 +57,10 @@ fazer migrações dos dados.
 Criar um super usuario.
 
      $  python manage.py createsuperuser
-migrar os arquivos staticos.
+Migrar os arquivos staticos.
 
     $  python manage.py collectstatic
-dar start no servidor de testes.
+Dar start no servidor de testes.
 
     $  python manage.py runserver
     

@@ -23,7 +23,7 @@ Para instalar o *pip* digite
 
 	$ sudo apt-get install -y python-pip
 
-### Criando a ambiente
+### Criando o ambiente
 
 Para criar um ambiente isolado com  **Python 3**, então digite:
 

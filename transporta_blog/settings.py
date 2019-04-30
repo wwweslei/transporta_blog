@@ -25,8 +25,7 @@ SECRET_KEY = 's0le5t*=w1x4)_d1t^fc4o#^7*-m057g1c68a(=8_&f7(uxgx3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*', '34.220.99.32',
-                 'ec2-34-220-99-32.us-west-2.compute.amazonaws.com']
+ALLOWED_HOSTS = ['*']
 
 ADMIN_SITE_HEADER = "Transporta.club Administração"
 

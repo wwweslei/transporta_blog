@@ -13,11 +13,14 @@
 <body>
 <div class="page-header">
     {% if user.is_authenticated %}
-        <ul class="nav navbar-nav navbar-right">
-            <li><a class="top-menu" id="login">Olá {{ user.username }} seja bem vindo.</a></li>
-            <li><a href="{% url 'post_new' %}" class="top-menu">Adicionar postagem  <span class="glyphicon glyphicon-plus"></span></a></li>
-            <li><a class="top-menu" href="{% url 'logout' %}">Sair <span class="glyphicon glyphicon-log-out"></span></a></li>
-        </ul>
+        <div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a class="top-menu" id="login">Olá {{ user.username }} seja bem vindo.</a></li>
+                <li><a class="top-menu" href="{% url 'post_new' %}" >Adicionar postagem <span class="glyphicon glyphicon-plus"></span></a></li>
+                <li><a class="top-menu" href="{% url 'logout' %}">Sair <span class="glyphicon glyphicon-log-out"></span></a>
+                </li>
+            </ul>
+        </div>
     {% else %}
         <a href="{% url 'login' %}" class="top-menu"><p class="glyphicon glyphicon-user">Login</p></a>
     {% endif %}

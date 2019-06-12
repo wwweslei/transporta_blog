@@ -172,6 +172,32 @@ h1, h2, h3, h4 {
     margin: 0 0 0 5px;
     color: #EDEFF1 !important;
 }
-#login{
-    font-size: small;
+
+.navbar-right {
+    font-size: 18px;
+}
+
+.navbar-nav > li > a {
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+
+.nav > li > a {
+    position: relative;
+    display: block;
+}
+
+a {
+
+    color: #fff;
+    text-decoration: none;
+
 }
